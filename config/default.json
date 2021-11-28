@@ -1,0 +1,11 @@
+{
+  "app": {
+    "port": 3000,
+    "checkInterval": 60000,
+    "blockchain": {
+      "url": "https://mainnet.infura.io/v3/68fb082d21e44c2eb1befa5bc3f5a381",
+      "tokenAddress": "0xa145ac099e3d2e9781c9c848249e2e6b256b030d",
+      "walletAddress": "0xA145ac099E3d2e9781C9c848249E2e6b256b030D"
+    }
+  }
+}
