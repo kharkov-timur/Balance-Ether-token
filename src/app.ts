@@ -21,8 +21,8 @@ const tokenAddress = config.get('app.blockchain.tokenAddress');
 class TransactionCheck {
   web3;
 
-  constructor(provider) {
-    this.web3 = new Web3(new Web3.providers.HttpProvider(provider));
+  constructor(providerId) {
+    this.web3 = new Web3(new Web3.providers.HttpProvider(providerId));
     setInterval(this.getBalance.bind(this), CHECK_INTERVAL);
   }
 
@@ -47,4 +47,4 @@ class TransactionCheck {
   }
 }
 
-new TransactionCheck(provider);
+new TransactionCheck(provider).getBalance().then();
