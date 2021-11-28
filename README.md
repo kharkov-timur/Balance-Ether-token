@@ -1,12 +1,16 @@
 # Balance Ether token
 
-**From start**
+**How it works**
 
-- npm install
+The balance of tokens is written to the file every one minute
 
-**After**
+**From start project**
 
-- npm start
+First step - git clone
+
+Second step - npm install
+
+Third step - npm start
 
 **Check balance token in file**
 
